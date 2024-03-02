@@ -461,3 +461,49 @@ a {
   margin-top: 38px;
   justify-content: center;
 }
+/* =========================== install ======================== */
+
+.install__inner {
+  display: flex;
+  margin: 180px 0 85px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  height: 427px;
+  background: #2e80ce;
+  border-radius: 4px;
+}
+
+.install__img {
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install__heading {
+  max-width: 489px;
+  color: #fff;
+}
+
+.install__desc {
+  margin-top: 18px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.68; /* 166.667% */
+  max-width: 586px;
+}
+
+.install__row {
+  margin-top: 38px;
+  display: flex;
+  column-gap: 28px;
+  align-items: center;
+}
