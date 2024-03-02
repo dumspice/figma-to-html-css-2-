@@ -599,3 +599,30 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+
+/* ++============== appointment ============== */
+
+.appointment {
+  margin: 85px 0;
+}
+
+.appointment__inner {
+  background: #f6fbff;
+  padding: 100px 178px;
+  text-align: center;
+}
+
+.appointment__heading::after {
+  content: "";
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  display: block;
+  margin: 18px auto 0;
+}
+
+.appointment__desc {
+  margin: 18px auto 0;
+  max-width: 617px;
+  margin-bottom: 38px;
+}
